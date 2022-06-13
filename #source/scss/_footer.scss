@@ -1,0 +1,19 @@
+.footer {
+    background: #2c3154;
+    &__container {
+        padding: 24px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    &__text {
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: capitalize;
+        color: #808080;
+        span{
+            color: #ffffff;
+        }
+    }
+}

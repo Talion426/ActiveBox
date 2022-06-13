@@ -1,0 +1,43 @@
+.welcome {
+    background: linear-gradient(rgba(37, 43, 73, 0.8)), url(../img/background.jpg);
+    background-size: cover;
+    text-align: center;
+    padding: 0 0 120px 0;
+    
+    &__title {
+        margin: 130px 0 31px 0;
+        font-weight: 900;
+        font-size: 64px;
+        line-height: 75px;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    &__text {
+        font-size: 24px;
+        line-height: 28px;
+        color: #ffffff;
+        margin: 0 0 82px 0;
+        
+    }
+    &__link {
+        font-size: 24px;
+        line-height: 28px;
+        color: #ffffff;
+        font-weight: 900;
+        text-transform: uppercase;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        width: 370px;
+        background: #ff4343;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            background: #e71414;
+        }
+        &:active {
+            background: #ff4343;
+            box-shadow: 4px 4px 30px #ff4343;
+        }
+    }
+}

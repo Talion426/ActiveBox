@@ -1,0 +1,48 @@
+.saying {
+    padding: 114px 0;
+    &__row {
+        display: flex;
+        margin: 0 -15px;
+    }
+    &__column {
+        padding: 0 15px;
+    }
+    &__name {
+        margin: 30px 0 10px 0;
+        font-weight: 700;
+        font-size: 24px;
+        text-transform: capitalize;
+        color: #2d3033;
+    }
+    &__prof {
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #ff4343;
+    }
+    &__text {
+        margin: 20px 0 40px 0;
+
+        font-size: 18px;
+        line-height: 21px;
+        color: #6c7279;
+    }
+    &__links {
+        display: flex;
+        gap: 2.5px;
+    }
+    &__link {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #c6cbcd;
+        color: #c6cbcd;
+        font-size: 18px;
+        height: 39px;
+        width: 39px;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            color: #000000;
+            border: 1px solid #000000;
+        }
+    }
+}

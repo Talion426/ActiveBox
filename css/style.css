@@ -403,9 +403,13 @@ body {
   font-size: 18px;
   color: #ffffff;
 }
-.grid__img {
-  width: 100%;
+.grid__image {
   height: 100%;
+  width: 100%;
+}
+.grid__img {
+  height: 100%;
+  width: 100%;
 }
 
 .saying {
@@ -415,9 +419,14 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   margin: 0 -15px;
 }
 .saying__column {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 25%;
+          flex: 1 0 25%;
   padding: 0 15px;
 }
 .saying__name {
@@ -434,6 +443,7 @@ body {
 }
 .saying__text {
   margin: 20px 0 40px 0;
+  max-width: 270px;
   font-size: 18px;
   line-height: 21px;
   color: #6c7279;

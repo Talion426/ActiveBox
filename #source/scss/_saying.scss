@@ -2,9 +2,11 @@
     padding: 114px 0;
     &__row {
         display: flex;
+        flex-wrap: wrap;
         margin: 0 -15px;
     }
     &__column {
+        flex: 1 0 25%;
         padding: 0 15px;
     }
     &__name {
@@ -21,7 +23,7 @@
     }
     &__text {
         margin: 20px 0 40px 0;
-
+        max-width: 270px;
         font-size: 18px;
         line-height: 21px;
         color: #6c7279;

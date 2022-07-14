@@ -4,14 +4,21 @@
         justify-content: space-between;
         align-items: center;
         border-bottom: 1px solid #babbc5;
+        @media (max-width: 992px) {
+            padding: 20px 0 0 0;
+            border-bottom: none;
+        }
     }
     &__link {
-        line-height: 0;
+        display: block;
     }
 }
 .header-nav {
     &__list {
         display: flex;
+        @media (max-width: 992px) {
+            display: none;
+        }
     }
     &__link {
         font-weight: 700;
@@ -50,6 +57,18 @@
                 background-color: #e71414;
                 transition: all 0.25s ease-in-out;
             }
+        }
+        @media (max-width: 1200px) {
+            font-size: 12px;
+            width: 120px;
+        }
+    }
+    &__burger-btn{
+        background-color: inherit;
+        padding: 3px;
+        display: none;
+        @media (max-width: 992px) {
+            display: block;
         }
     }
 }

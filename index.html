@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
         <link rel="stylesheet" href="css/style.css" />
         <title>ActiveBOX</title>
     </head>
@@ -30,6 +31,9 @@
                                     </li>
                                     <li class="header-nav__item"><a href="" class="header-nav__link">download</a></li>
                                 </ul>
+                                <button class="header-nav__burger-btn">
+                                    <img src="img/burger.png" alt="" class="header-nav__burger-img" />
+                                </button>
                             </nav>
                         </div>
                     </header>
@@ -264,13 +268,59 @@
                 </div>
             </section>
             <section class="comments">
+                <div class="comments__img--container">
+                    <img src="img/bg.jpg" alt="" class="comments__img" />
+                </div>
                 <div class="container">
-                    <div class="comments__body">
-                        <p class="comments__text">
-                            “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed odio dui.
-                            Aenean eu leo quam...”
-                        </p>
-                        <p class="comments__people">Susan Sims, Interaction Designer at XYZ</p>
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="comments__item swiper-slide">
+                                <div class="comments__content">
+                                    <p class="comments__text">
+                                        “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed
+                                        odio dui. Aenean eu leo quam...”
+                                    </p>
+                                    <p class="comments__people">Susan Sims, Interaction Designer at XYZ</p>
+                                </div>
+                            </div>
+                            <div class="comments__item swiper-slide">
+                                <div class="comments__content">
+                                    <p class="comments__text">
+                                        “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed
+                                        odio dui. Aenean eu leo quam...”
+                                    </p>
+                                    <p class="comments__people">Susan Sims, Interaction Designer at XYZ</p>
+                                </div>
+                            </div>
+                            <div class="comments__item swiper-slide">
+                                <div class="comments__content">
+                                    <p class="comments__text">
+                                        “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed
+                                        odio dui. Aenean eu leo quam...”
+                                    </p>
+                                    <p class="comments__people">Susan Sims, Interaction Designer at XYZ</p>
+                                </div>
+                            </div>
+                            <div class="comments__item swiper-slide">
+                                <div class="comments__content">
+                                    <p class="comments__text">
+                                        “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed
+                                        odio dui. Aenean eu leo quam...”
+                                    </p>
+                                    <p class="comments__people">Susan Sims, Interaction Designer at XYZ</p>
+                                </div>
+                            </div>
+                            <div class="comments__item swiper-slide">
+                                <div class="comments__content">
+                                    <p class="comments__text">
+                                        “Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec sed
+                                        odio dui. Aenean eu leo quam...”
+                                    </p>
+                                    <p class="comments__people">Susan Sims, Interaction Designer at XYZ</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
             </section>
@@ -322,5 +372,7 @@
             </div>
         </footer>
         <script src="https://kit.fontawesome.com/c6a31e549f.js" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>

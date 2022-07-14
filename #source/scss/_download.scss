@@ -1,15 +1,30 @@
 .download {
     padding: 150px 0 150px 0;
+    @media (max-width: 1200px) {
+        padding: 120px 0 120px 0;
+    }
+    @media (max-width: 992px) {
+        padding: 100px 0 100px 0;
+    }
+    @media (max-width: 767px) {
+        padding: 60px 0 60px 0;
+    }
     &__body {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        text-align: center;
     }
     &__title {
         font-weight: 500;
         font-size: 30px;
+        line-height: 35px;
         color: #000000;
+        @media (max-width: 1200px) {
+            font-size: 24px;
+            line-height: 28px;
+        }
+        @media (max-width: 767px) {
+            font-size: 18px;
+            line-height: 21px;
+        }
     }
     &__subtitle {
         margin: 30px 0 50px 0;
@@ -17,6 +32,14 @@
         font-size: 18px;
         text-transform: uppercase;
         color: #000000;
+        @media (max-width: 1200px) {
+            font-size: 16px;
+            line-height: 14px;
+        }
+        @media (max-width: 767px) {
+            font-size: 13px;
+            line-height: 15px;
+        }
     }
     &__button {
         font-size: 24px;
@@ -34,6 +57,19 @@
         &:active {
             background: #ff4343;
             box-shadow: 4px 4px 30px #ff4343;
+        }
+        @media (max-width: 1200px) {
+            font-size: 24px;
+            line-height: 28px;
+            height: 80px;
+            width: 370px;
+        }
+        @media (max-width: 767px) {
+            height: 78px;
+            width: 315px;
+        }
+        @media (max-width: 565px) {
+            width: 260px;
         }
     }
 }

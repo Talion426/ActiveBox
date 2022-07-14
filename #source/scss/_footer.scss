@@ -12,8 +12,12 @@
         line-height: 21px;
         text-transform: capitalize;
         color: #808080;
-        span{
+        span {
             color: #ffffff;
+        }
+        @media (max-width: 767px) {
+            font-size: 14px;
+            line-height: 16px;
         }
     }
 }

@@ -23,13 +23,21 @@
                             </div>
                             <nav class="header__header-nav header-nav">
                                 <ul class="header-nav__list">
-                                    <li class="header-nav__item"><a href="" class="header-nav__link">features</a></li>
-                                    <li class="header-nav__item"><a href="" class="header-nav__link">works</a></li>
-                                    <li class="header-nav__item"><a href="" class="header-nav__link">our team</a></li>
                                     <li class="header-nav__item">
-                                        <a href="" class="header-nav__link">testimonials</a>
+                                        <a data-goto=".services" href="" class="header-nav__link">features</a>
                                     </li>
-                                    <li class="header-nav__item"><a href="" class="header-nav__link">download</a></li>
+                                    <li class="header-nav__item">
+                                        <a data-goto=".grid" href="" class="header-nav__link">works</a>
+                                    </li>
+                                    <li class="header-nav__item">
+                                        <a data-goto=".saying" href="" class="header-nav__link">our team</a>
+                                    </li>
+                                    <li class="header-nav__item">
+                                        <a data-goto=".comments" href="" class="header-nav__link">testimonials</a>
+                                    </li>
+                                    <li class="header-nav__item">
+                                        <a data-goto=".download" href="" class="header-nav__link">download</a>
+                                    </li>
                                 </ul>
                                 <button class="header-nav__burger-btn">
                                     <img src="img/burger.png" alt="" class="header-nav__burger-img" />
@@ -371,6 +379,25 @@
                 <p class="footer__text">Reserved Made with <span>by Kamal Chaneman</span></p>
             </div>
         </footer>
+        <div class="burger-menu">
+            <ul class="burger-menu__list">
+                <li class="burger-menu__item">
+                    <a data-goto=".services" class="burger-menu__link" href="#features">FEATURES</a>
+                </li>
+                <li class="burger-menu__item">
+                    <a data-goto=".grid" class="burger-menu__link" href="#about">WORKS</a>
+                </li>
+                <li class="burger-menu__item">
+                    <a data-goto=".saying" class="burger-menu__link" href="#pricing">OUR TEAM</a>
+                </li>
+                <li class="burger-menu__item">
+                    <a data-goto=".comments" class="burger-menu__link" href="#reviews">TESTIMONIALS</a>
+                </li>
+                <li class="burger-menu__item">
+                    <a data-goto=".download" class="burger-menu__link" href="#contact">DOWNLOAD</a>
+                </li>
+            </ul>
+        </div>
         <script src="https://kit.fontawesome.com/c6a31e549f.js" crossorigin="anonymous"></script>
         <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
         <script src="js/main.js"></script>

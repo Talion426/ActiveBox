@@ -1,4 +1,6 @@
 .header {
+    position: relative;
+    z-index: 10;
     &__body {
         display: flex;
         justify-content: space-between;
@@ -63,7 +65,7 @@
             width: 120px;
         }
     }
-    &__burger-btn{
+    &__burger-btn {
         background-color: inherit;
         padding: 3px;
         display: none;
